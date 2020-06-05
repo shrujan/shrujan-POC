@@ -1,6 +1,6 @@
 $padding: 1rem;
-$color-primary: #31bb31;
-$max-width: 900px;
+$color-primary: #47d647;
+$max-width: 1024px;
 
 .grid-container {
     display: flex;
@@ -51,7 +51,6 @@ $max-width: 900px;
 
         &__button{
             cursor: pointer;
-            border: 1px solid #ccc;
             display: inline-block;
             line-height: 2rem;
             height: 2rem;
@@ -65,10 +64,12 @@ $max-width: 900px;
             border-radius: 4px;
 
             &:hover {
+                border: 1px solid #1b8c06;
                 transform: translateY(-2px);
                 box-shadow: 1px 2px rgba($color: #000000, $alpha: 0.4);
             }
             &:active {
+                border: 1px solid #1b8c06;
                 transform: translateY(0px);
                 box-shadow: 1px 1px rgba($color: #000000, $alpha: 0.4);
             }
