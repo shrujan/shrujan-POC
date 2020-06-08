@@ -15,20 +15,16 @@ $max-width: 1024px;
 
     &__cell {
         width: 24%;
-        // border: 1px solid #ccc;
         min-height: 12rem;
         max-height: 19rem;
         background-color: white;
         overflow: hidden;
 
         @media (max-width: 1240px) and (min-width: 1025px){
-           
                 max-height: 24rem;
                 font-size: 1.0rem;
-                
         } 
         
-
         &:not(:last-child) {
             margin-right: 1rem;
         }
@@ -47,7 +43,6 @@ $max-width: 1024px;
 
             @media (max-width: 1240px) and (min-width: 1025px){
                 font-size: 0.7rem;
-                
             } 
         }
 
@@ -58,10 +53,7 @@ $max-width: 1024px;
 
             @media (max-width: 1240px) and (min-width: 1025px){
                 font-size: 1.2rem;
-                // text-overflow: ellipsis;
-
             } 
-        
         }
 
         &__content {
@@ -107,8 +99,6 @@ $max-width: 1024px;
                 margin-top: 1rem;
             }
         }
-
-       
     }
 
 }
